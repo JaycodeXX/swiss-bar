@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+     rel="stylesheet"> 
+    <link rel="stylesheet" href="styles.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <title>Swiss Bar & Garden</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">
+            <i class="fa-solid fa-utensils"></i>Swiss bar
+        </a>
+        <nav class="navbar">
+            <a class="active" href="index.html">home</a>
+            <a href="#">menu</a>
+            <a href="#">about</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+            <a href="#">help</a>
+        </nav>
+        <div class="icons">
+            <i class="fa-solid fa-bars" id="menu_bars"></i>
+            <i class="fa-solid fa-search" id="search"></i>
+            <a href="#"> <i class="fa-solid fa-heart"></i></a>
+            <a href="#"> <i class="fa-solid fa-shopping-cart"></i></a>
+        </div>
+    </header>
+    <form action="" id="search_form">
+        <input type="search" placeholder="search dishes" name="" id="search_box">
+        <label for="search_box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+    <!----------- Home section  -------->
+    <section class="home" id="home">
+        <div class="swiper mySwiper home_slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dishes</span>
+                        <h3>fresh fish</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                           Repellat laudantium sint voluptas magni error quo voluptates 
+                           impedit ducimus facilis dolores.</p>
+                           <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./asset/—Pngtree—grilled fish on a white_7483530.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dishes</span>
+                        <h3>chicken peppersoup</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                           Repellat laudantium sint voluptas magni error quo voluptates 
+                           impedit ducimus facilis dolores.</p>
+                           <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./asset/pexels-dana-tentis-725991.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>our special dishes</span>
+                        <h3>nkwobi</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                           Repellat laudantium sint voluptas magni error quo voluptates 
+                           impedit ducimus facilis dolores.</p>
+                           <a href="#" class="btn">order now</a>
+                    </div>
+                    <div class="image">
+                        <img src="./asset/pexels-dana-tentis-725991.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
